@@ -1,0 +1,16 @@
+function Constants(){
+
+const BACKEND_URL = 'http://localhost:3004/';
+
+const CREATE_USER = {
+  url: 'auth/user/register',
+  method: 'POST',
+};
+
+ const LOGIN_USER =  {
+  url: 'auth/user/login',
+  method: 'POST',
+};
+}
+
+export default Constants;

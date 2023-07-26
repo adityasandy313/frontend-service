@@ -1,0 +1,45 @@
+.sidebar-header {
+    color: white;
+    background-image: linear-gradient(to right, rgb(142, 113, 247), rgb(97, 80, 245));
+    height: 8vh;
+}
+
+.sidebar-header p {
+    margin-left: 30px;
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.collection-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    height: 12vh;
+}
+
+.search-icon {
+    margin-top: 17px;
+}
+
+.collection-list {
+    margin-top: -20px;
+    background-color: rgb(39, 39, 39);
+    height: 82vh;
+
+}
+
+.collection-types {
+    padding-top: 20px;
+}
+
+.logo-text {
+    padding-left: 5px;
+    background-color: black;
+    color: white;
+}
+
+.collection-name {
+    color: white;
+}

@@ -1,0 +1,88 @@
+.header {
+    height: 8vh;
+    color: rgb(76, 76, 76);
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.collection-types-builder {
+    display: flex;
+    height: 93.5vh;
+}
+
+.types {
+    background-color: rgb(207, 209, 223);
+    flex-grow: 1;
+}
+
+.fields {
+    flex-grow: 3;
+    background-color: rgb(235, 238, 252);
+}
+
+.new-type-button {
+    border: 2px dotted rgb(97, 80, 245);
+    margin-top: 60px;
+    margin-left: 15%;
+    border-style: dotted;
+    border-radius: 5px;
+    width: 80%;
+    height: 50px;
+}
+
+.new-type-button:active {
+    background-color: rgb(97, 80, 245);
+}
+
+.new-field-button {
+    margin-top: 60px;
+    margin-left: 78px;
+    border: 2px solid rgb(97, 80, 245);
+    border-style: dotted;
+    border-radius: 5px;
+    width: 80%;
+    height: 50px;
+}
+
+.button-collection {
+    display: flex;
+    flex-direction: column;
+}
+
+.new-type-button-collection {
+    margin-top: 60px;
+    margin-left: 15%;
+    border: 2px rgb(97, 80, 245);
+    border-radius: 5px;
+    width: 80%;
+    height: 50px;
+}
+
+.fields-collection {
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 50px;
+    width: 82%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+.sub-header {
+    margin-left: 10px;
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.sub-header-name {
+    font-size: 30px;
+    font-weight: bold;
+}
